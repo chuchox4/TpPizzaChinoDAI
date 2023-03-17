@@ -117,7 +117,7 @@ using (var db = new SqlConnection(CONNECTION_STRING)) {
 
 intRowsAffected = db.Execute(sqlQuery, new {
 
-idPizza = pizza.Id,
+idPizza = pizza.IdPizza,
 
 nombre = pizza.Nombre,
 
